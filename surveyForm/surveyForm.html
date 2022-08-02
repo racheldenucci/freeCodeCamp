@@ -6,16 +6,46 @@
         <title>Survey Form</title>
     </head>
     <body>
-        <h1>Survey Form</h1>
+        <h1 id="title">Survey Form name</h1>
         <p id="description">this is the reason for this survey</p>
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label">Enter your full name <input type="text" id="name" required placeholder="John Doe"></label>
+                <label id="email-label">Enter your email <input type="email" id="email" required placeholder="name@email.com"></label>
+                <label id="number-label">Enter a number <input type="number" id="number" min="1" max="10" placeholder="1-10"> </label>
+            </fieldset>
+            <fieldset>
+                <label id="dropdown">Select option</label>
+            <select>
+                <option>opt a</option>
+                <option>opt b</option>
+                <option>opt c</option>
+            </select>
+            </fieldset>
+
+            <fieldset name="radio">
+                <label>select radio</label><br>
+                <input type="radio">
+                <label>opt 1</label>
+                <input type="radio">
+                <label>opt 2</label>
+            </fieldset>
+
+            <fieldset name="check">
+                <label>check</label><br>
+                <input type="checkbox" value="a">
+                <label>opt a</label>
+                <input type="checkbox" value="b">
+                <label>opt b</label>
+            </fieldset>
+
+            <fieldset>
+                <label>additional comments</label>
+                <input type="text">
+            </fieldset>
+            
+            <input type="submit" id="submit">
+        </form>
+        
     </body>
 </html>
-
-<!-- 
-    <fieldset>
-        <label>Enter Your First Name: <input type="text" required /></label>
-        <label>Enter Your Last Name: <input type="text" required /></label>
-        <label>Enter Your Email: <input type="email" required /></label>
-        <label>Create a New Password: <input type="password" pattern="[a-z0-5]{8,}" required /></label>
-      </fieldset>
-  -->
