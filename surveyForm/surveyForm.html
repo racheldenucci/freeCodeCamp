@@ -15,8 +15,8 @@
                 <label id="number-label">Enter a number <input type="number" id="number" min="1" max="10" placeholder="1-10"> </label>
             </fieldset>
             <fieldset>
-                <label id="dropdown">Select option</label>
-            <select>
+                <label >Select option</label>
+            <select id="dropdown">
                 <option>opt a</option>
                 <option>opt b</option>
                 <option>opt c</option>
@@ -25,9 +25,9 @@
 
             <fieldset name="radio">
                 <label>select radio</label><br>
-                <input type="radio">
+                <input type="radio" value="rd1" name="radio1">
                 <label>opt 1</label>
-                <input type="radio">
+                <input type="radio" value="rd2" name="radio2">
                 <label>opt 2</label>
             </fieldset>
 
@@ -40,8 +40,8 @@
             </fieldset>
 
             <fieldset>
-                <label>additional comments</label>
-                <input type="text">
+                <label>additional comments</label><br>
+                <textarea></textarea>
             </fieldset>
             
             <input type="submit" id="submit">

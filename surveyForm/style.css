@@ -5,3 +5,16 @@ body{
 #description{
     font: italic;
 }
+
+#title{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#description{
+    font: italic;
+}
+
+#survey-form{
+    text-align: justify;
+}
+
