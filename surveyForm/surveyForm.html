@@ -2,49 +2,54 @@
 <html>
     <head>
         <meta charset="UFT-8">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <title>Survey Form</title>
     </head>
+
     <body>
-        <h1 id="title">Survey Form name</h1>
-        <p id="description">this is the reason for this survey</p>
-        <form id="survey-form">
-            <fieldset>
-                <label id="name-label">Enter your full name <input type="text" id="name" required placeholder="John Doe"></label>
-                <label id="email-label">Enter your email <input type="email" id="email" required placeholder="name@email.com"></label>
-                <label id="number-label">Enter a number <input type="number" id="number" min="1" max="10" placeholder="1-10"> </label>
+        <h1>Coffeeshop Survey</h1>
+        <p id="description">we want your help!</p>
+
+        <form>
+            <fieldset id="costumerId">
+                <label>Enter your name <input type="text" id="name" required placeholder="John Doe"></label><br>
+                <label>Enter your email <input type="email" id="email" required placeholder="name@email.com"></label><br>
+                <label>Enter your age <input type="number" id="number" min="15" max="99" placeholder="15+"> </label><br>
             </fieldset>
-            <fieldset>
-                <label >Select option</label>
+
+            <fieldset id="frequency">
+                <label>How often do you drink coffee?</label><br>
             <select id="dropdown">
-                <option>opt a</option>
-                <option>opt b</option>
-                <option>opt c</option>
+                <option>Once a week or less</option>
+                <option>2-6 times a week</option>
+                <option>Everyday</option>
             </select>
             </fieldset>
 
-            <fieldset name="radio">
-                <label>select radio</label><br>
-                <input type="radio" value="rd1" name="radio1">
-                <label>opt 1</label>
-                <input type="radio" value="rd2" name="radio2">
-                <label>opt 2</label>
+            <fieldset id="espresso">
+                <label>Do you enjoy drinking espresso?</label><br>
+                <label><input type="radio" value="yes" name="espresso">Yes</label>
+                <label><input type="radio" value="no" name="espresso">No</label>
             </fieldset>
 
-            <fieldset name="check">
-                <label>check</label><br>
-                <input type="checkbox" value="a">
-                <label>opt a</label>
-                <input type="checkbox" value="b">
-                <label>opt b</label>
-            </fieldset>
-
-            <fieldset>
-                <label>additional comments</label><br>
+            <fieldset id="methods">
+                <label>What other preparing methods do you enjoy?</label><br>
+                <input type="checkbox" value="filter">
+                <label>Filter</label>
+                <input type="checkbox" value="moka">
+                <label>Moka Pot</label>
+                <input type="checkbox" value="capsule">
+                <label>Capsules (i.e. nespresso)</label><br>
+                <input type="checkbox" value="other">
+                <label>Other: </label><br>
                 <textarea></textarea>
             </fieldset>
             
-            <input type="submit" id="submit">
+            <div class="button">
+                <input type="submit" id="submit">
+            </div>
+            
         </form>
         
     </body>

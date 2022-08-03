@@ -1,20 +1,58 @@
 body{
-    font-family: monospace;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Abril Fatface', 'Courier New', Courier, monospace;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #4C352F;
 }
 
 #description{
-    font: italic;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-#title{
+form{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+} 
+
+fieldset{
+    background-color: #CAB19B;
+    padding: 20px;
+    line-height: 30px;
+    margin: 15px;
+    border: 3px solid #4C352F;
+    border-radius: 5px;
+}
+
+::placeholder{
     font-family: 'Courier New', Courier, monospace;
 }
 
-#description{
-    font: italic;
+#dropdown{
+    font-family: 'Courier New', Courier, monospace;
 }
 
-#survey-form{
-    text-align: justify;
+.button{
+    display: flex;
+    justify-content: center;
+    
 }
 
+#submit{
+    width: 110px;
+    padding: 5px;
+    font: bold 20px 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #CAB19B;
+    border: 3px solid #4C352F;
+    border-radius: 5px;
+}
