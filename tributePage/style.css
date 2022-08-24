@@ -1,0 +1,28 @@
+body{
+    margin: 0 auto;
+    padding: 1%;
+    font-family: Arial, sans-serif;
+    color: rgb(69, 69, 69);
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    padding: 2%;
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
+}
+
+#imgCont{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 1%;
+}
+
+#textCont{
+    text-align: justify;
+}
