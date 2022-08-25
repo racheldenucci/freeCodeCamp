@@ -23,6 +23,15 @@ body{
     padding: 1%;
 }
 
+#caption{
+    font-size: small;
+    text-align: right;
+}
+
 #textCont{
+    padding: 0 5%;
+}
+
+#text{
     text-align: justify;
 }
