@@ -35,3 +35,7 @@ body{
 #text{
     text-align: justify;
 }
+
+a{
+    color: goldenrod;
+}
