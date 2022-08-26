@@ -1,0 +1,17 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.headerLogo{
+    width: 8%;
+}
+
+.icons{
+    width: 8%;
+}
+
+.grid{
+    display: flex;
+}
